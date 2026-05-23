@@ -414,6 +414,9 @@ export default function SolarYieldRevenueForecaster() {
         <div className="mt-10 text-xs text-white/45">
           Built a proposal prototype. Next improvements: P50/P90 scenarios, seasonal irradiance (TMY), battery/hybrid dispatch, diesel offset, and PDF export.
         </div>
+         <div className="mt-12 border-t border-white/10 pt-6 text-xs text-white/45">
+        © {new Date().getFullYear()} Chisapa Chikwa• Contact: chikwachisapa2@gmail.com
+      </div>
       </div>
     </div>
   );
